@@ -8,7 +8,7 @@ load_dotenv()
 # -------------------- GROQ --------------------
 
 # Configuration constants
-GROQ_MODEL = "llama3-8b-8192"  
+GROQ_MODEL = os.getenv('GROQ_MODEL')  
 MAX_TOKENS = 1000
 TEMPERATURE = 0.7
 
