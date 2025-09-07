@@ -69,6 +69,7 @@ def chatbot_response(request):
             - Check the conversation history for relevant cases
             - Assume continuation of the most recent relevant case
         4. When uncertain, ask clarifying questions
+        5. If the user sends a greeting, polite acknowledgment is required (e.g., "Hello, how can I assist you with your legal matter today?") without requiring document context.
 
         Structure your response as follows:
             - Begin with a direct answer to the legal question
